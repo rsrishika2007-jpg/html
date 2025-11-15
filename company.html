@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <style>
+        
+        .title{
+            background-color:white;
+            font-size: 45px;
+            font-style: italic;
+            color:rgba(168, 4, 4, 0.842);
+            font-weight:bold;
+
+        }
+        .mar{
+          text-decoration: none;
+          font-size: 25px;
+          color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <!--row 1-logo,company,icons,welcome,logout-->
+    <div class="row">
+        <div class="col-1">
+            <img src="m.png" width="70%" height="100%">
+        </div>
+        <div class="col-4" style="text-align:center; font-weight: bold; font-style: normal; font-family: fantasy;">
+            <SPAN class="title">MAHINDRA</SPAN>
+        </div>
+        <div class="col-3" style="text-align: center; font-size: 40px;">
+          <a href="https://www.linkedin.com/login">
+        <i class="bi bi-linkedin" style="color: rgb(255, 0, 0); font-size: 30px;"></i> </a>
+        <a href="https://www.instagram.com/"><i class="bi bi-instagram" style="color: rgb(221, 77, 10); font-size: 30px;"></i></a>
+        </div>
+        <div class="col-3" style="font-size: 30px; font-style: italic; font-family: fantasy; COLOR: rgb(223, 110, 125); font-weight: bold;">welcome,rishika</div>
+        <div class="col-1">
+            <a href="logout" style="text-decoration: none;font-size: 20px; color: black; font-size: 25PX;"><i class="bi bi-box-arrow-right""></i></a>
+        </div>
+    </div>
+    <!--row 2-menu bar,search-->
+    <div class="row">
+    <div class="col-9" style="background-color: rgb(209, 109, 91); color: aliceblue;"> 
+      <nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+       <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li> 
+
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    </div>
+    <div class="col-3" mt-2>
+        <div class="input-group mb-3">
+  <input style="color: rgb(214, 93, 93);" type="text" class="form-control" placeholder="SEARCH THE WEB" aria-label="Recipient’s username" aria-describedby="basic-addon2">
+  <span class="input-group-text" id="basic-addon2"><i class="bi bi-search-heart"></i></span>
+  </div>
+    </div>
+    </div>
+    <!--row 3-scrolling text-->>
+    <marquee behavior="" direction="" style="background-color: rgb(228, 149, 96);">
+       <a class="mar" href="CAR1.jfif" style="font-size: 40px; font-style: oblique; font-family: fantasy;color: brown;">CAR MODEL-2025!</a>
+       <a class="mar" href="CAR2.jfif"  style="font-size: 40px; font-style: oblique; font-family: fantasy;color: rgb(184, 94, 94);">| CAR MODEL-20O7!</a>
+    </marquee>
+    </div> 
+  <!-- row 4 Sliding images-->
+  <div class="row">
+    <div class="col-6">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+            aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="car4" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="CAR1.jfif" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="CAR2.jfif" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="CAR3" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+      <div class="card col-3 m-0">
+    <img src="CAR1.jfif" class="card-img-top" alt="..." />
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">
+        Some quick example text to build on the card title and make up the
+        bulk of the card’s content.
+      </p>
+       <i class="bi bi-hand-thumbs-up">
+       </i><i class="bi bi-hand-thumbs-down-fill">
+       </i><i class="bi bi-chat-left-text"></i>
+    </div>
+  </div>
+  <div class="card col-3 m-0" >
+        <img src="CAR2.jfif" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card’s content.
+          </p>
+          <i class="bi bi-hand-thumbs-up"></i>
+          <i class="bi bi-hand-thumbs-down-fill"></i>
+          <i class="bi bi-chat-left-text"></i>
+        </div>
+      </div>
+  </div>
+
+
+  <!--cards x 4-->
+  <div class="row">
+    <div style="display: flex">
+      <div class="card" style="width: 18rem">
+        <img src="car4" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card’s content.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img src="CAR2.jfif" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card’s content.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img src="CAR1.jfif" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card’s content.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img src="CAR3" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card’s content.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+</body>
+
+</html>
